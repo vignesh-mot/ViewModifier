@@ -22,7 +22,7 @@ pod 'ViewModifier'
 
 ## Author
 
-vignesh.mot@gmail.com, vignesh.s@degpeg.com
+vignesh.mot@gmail.com
 
 ## License
 

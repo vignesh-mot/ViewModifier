@@ -1,0 +1,22 @@
+{
+  "name": "ViewModifier",
+  "version": "0.1.0",
+  "summary": "A short description of ViewModifier.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vignesh.mot@gmail.com/ViewModifier",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vignesh.mot@gmail.com": "vignesh.s@degpeg.com"
+  },
+  "source": {
+    "git": "https://github.com/vignesh.mot@gmail.com/ViewModifier.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ViewModifier/Classes/**/*"
+}

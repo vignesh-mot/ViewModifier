@@ -1,0 +1,6 @@
+framework module ViewModifier {
+  umbrella header "ViewModifier-umbrella.h"
+
+  export *
+  module * { export * }
+}

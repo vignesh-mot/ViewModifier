@@ -1,0 +1,16 @@
+PODS:
+  - ViewModifier (0.1.0)
+
+DEPENDENCIES:
+  - ViewModifier (from `../`)
+
+EXTERNAL SOURCES:
+  ViewModifier:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ViewModifier: 084671fe99ddb1cd51180e5bb8cc4e86e1de0e89
+
+PODFILE CHECKSUM: fa33d42fe7ae9e7cd048ed0fd957c3a0840fcea6
+
+COCOAPODS: 1.12.0
