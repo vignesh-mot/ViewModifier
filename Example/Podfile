@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ViewModifier_Example' do
+  pod 'ViewModifier', :path => '../'
+
+  target 'ViewModifier_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
