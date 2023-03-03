@@ -13,7 +13,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.addBorderLine()
+        Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { _ in
+            let vc = DegpegVideoCallManager.getVideoCallView(
+                host: "NjMyODZmNzI2NDA2MGM2OWM4OWNmNzdl",
+                appId: "TOeEeWktZ2xaruLg",
+                secretKey: "degpegAditya Degpeg_NABKUyKE")
+            self.present(vc, animated: true)
+        }
     }
 
     override func didReceiveMemoryWarning() {

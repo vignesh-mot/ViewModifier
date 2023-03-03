@@ -11,6 +11,8 @@
 		3C9EBFDA9012A2510F7C1F8EE771135E /* Pods-ViewModifier_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD63D563092DDB8FB54FCDA2540805A /* Pods-ViewModifier_Tests-dummy.m */; };
 		5BE9AB64004B44063AE674B340D978DF /* Pods-ViewModifier_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB2146CABAFCE9FAC1C3A0788A029CFB /* Pods-ViewModifier_Example-dummy.m */; };
 		604B259B6718E51B7F5597DC1EB71315 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A7A1805E7BFC5BDF0FEBCF38C23C7B /* ReplaceMe.swift */; };
+		840C439529B0EE34000817E9 /* DegPegManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C439429B0EE34000817E9 /* DegPegManager.swift */; };
+		840C439C29B0EF33000817E9 /* VideoCallWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C439B29B0EF33000817E9 /* VideoCallWebViewController.swift */; };
 		846EDFDA29B0C3B30039269D /* UIView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EDFD929B0C3B30039269D /* UIView_Ext.swift */; };
 		9CA34A39EE5591E8F59ADA3FF1051719 /* Pods-ViewModifier_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07EC60F862E85F220739F8CD94A5FD3F /* Pods-ViewModifier_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1498796901F6F24B532078B2707E63B /* ViewModifier-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E203EB53B9F4035D8AE22206E6260CF6 /* ViewModifier-dummy.m */; };
@@ -54,6 +56,8 @@
 		729C7E4E250749B52CCD15B24FB05FC1 /* ViewModifier-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ViewModifier-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76972E4B8BBD251CBE465F896B92D9F3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		840C439429B0EE34000817E9 /* DegPegManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegPegManager.swift; sourceTree = "<group>"; };
+		840C439B29B0EF33000817E9 /* VideoCallWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallWebViewController.swift; sourceTree = "<group>"; };
 		846EDFD929B0C3B30039269D /* UIView_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Ext.swift; sourceTree = "<group>"; };
 		95B10B4B9BB68FCA786689518461CEDD /* Pods-ViewModifier_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewModifier_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9949F14DF76EF1B45AEC6DBDA50DE2A4 /* Pods-ViewModifier_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewModifier_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,13 +154,31 @@
 		58EC33CB464B7F00EE2E8C76683014D1 /* ViewModifier */ = {
 			isa = PBXGroup;
 			children = (
+				840C439629B0EEDB000817E9 /* Views */,
+				840C439329B0EE20000817E9 /* Manager */,
 				B7A7A1805E7BFC5BDF0FEBCF38C23C7B /* ReplaceMe.swift */,
+				846EDFD929B0C3B30039269D /* UIView_Ext.swift */,
 				34A37B5A2D5015154CD874CD653DAA31 /* Pod */,
 				91259FAEC57CC7ECAF6C43E380287ED8 /* Support Files */,
-				846EDFD929B0C3B30039269D /* UIView_Ext.swift */,
 			);
 			name = ViewModifier;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		840C439329B0EE20000817E9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				840C439429B0EE34000817E9 /* DegPegManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		840C439629B0EEDB000817E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				840C439B29B0EF33000817E9 /* VideoCallWebViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		91259FAEC57CC7ECAF6C43E380287ED8 /* Support Files */ = {
@@ -379,7 +401,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				846EDFDA29B0C3B30039269D /* UIView_Ext.swift in Sources */,
+				840C439529B0EE34000817E9 /* DegPegManager.swift in Sources */,
 				604B259B6718E51B7F5597DC1EB71315 /* ReplaceMe.swift in Sources */,
+				840C439C29B0EF33000817E9 /* VideoCallWebViewController.swift in Sources */,
 				A1498796901F6F24B532078B2707E63B /* ViewModifier-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
