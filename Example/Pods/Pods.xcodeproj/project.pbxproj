@@ -14,6 +14,7 @@
 		840C439529B0EE34000817E9 /* DegPegManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C439429B0EE34000817E9 /* DegPegManager.swift */; };
 		840C439C29B0EF33000817E9 /* VideoCallWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C439B29B0EF33000817E9 /* VideoCallWebViewController.swift */; };
 		846EDFDA29B0C3B30039269D /* UIView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EDFD929B0C3B30039269D /* UIView_Ext.swift */; };
+		84B5F9A029B31A55008F5A2B /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5F99F29B31A55008F5A2B /* ViewManager.swift */; };
 		9CA34A39EE5591E8F59ADA3FF1051719 /* Pods-ViewModifier_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07EC60F862E85F220739F8CD94A5FD3F /* Pods-ViewModifier_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1498796901F6F24B532078B2707E63B /* ViewModifier-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E203EB53B9F4035D8AE22206E6260CF6 /* ViewModifier-dummy.m */; };
 		A94BAB6DC897F299DC7A5B16571BDA40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -59,6 +60,7 @@
 		840C439429B0EE34000817E9 /* DegPegManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegPegManager.swift; sourceTree = "<group>"; };
 		840C439B29B0EF33000817E9 /* VideoCallWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallWebViewController.swift; sourceTree = "<group>"; };
 		846EDFD929B0C3B30039269D /* UIView_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Ext.swift; sourceTree = "<group>"; };
+		84B5F99F29B31A55008F5A2B /* ViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewManager.swift; path = ../ViewModifier/Classes/ViewManager.swift; sourceTree = "<group>"; };
 		95B10B4B9BB68FCA786689518461CEDD /* Pods-ViewModifier_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViewModifier_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9949F14DF76EF1B45AEC6DBDA50DE2A4 /* Pods-ViewModifier_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViewModifier_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				840C439429B0EE34000817E9 /* DegPegManager.swift */,
+				84B5F99F29B31A55008F5A2B /* ViewManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B5F9A029B31A55008F5A2B /* ViewManager.swift in Sources */,
 				846EDFDA29B0C3B30039269D /* UIView_Ext.swift in Sources */,
 				840C439529B0EE34000817E9 /* DegPegManager.swift in Sources */,
 				604B259B6718E51B7F5597DC1EB71315 /* ReplaceMe.swift in Sources */,

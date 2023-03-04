@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         Timer.scheduledTimer(withTimeInterval: 5, repeats: false) { _ in
-            let vc = DegpegVideoCallManager.getVideoCallView(
+            let vc = ViewManager.getVideoCallView(
                 host: "NjMyODZmNzI2NDA2MGM2OWM4OWNmNzdl",
                 appId: "TOeEeWktZ2xaruLg",
                 secretKey: "degpegAditya Degpeg_NABKUyKE")
